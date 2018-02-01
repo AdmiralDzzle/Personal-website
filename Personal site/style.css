@@ -1,0 +1,158 @@
+@font-face
+{
+	font-family: LithosPro;
+	src: url("fonts/LithosPro-Regular.otf");
+}
+
+html
+{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	position: relative;
+	background-color: #d5e7f0;
+	font-family: "Century Gothic", "Arial", "Serif";
+}
+
+body
+{
+  margin: 0 auto 0 auto;
+  max-width: 1400 px;
+  min-width: 800px;
+  height: 110%;
+}
+
+#headerwrapper
+{
+	height: 80px;
+}
+
+#header
+{
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  min-width: 800px;
+  background-color: #00557d;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 1px solid #000000;
+  z-index: 1;
+}
+
+#headeritems
+{
+	min-width: 800px;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#logo
+{
+	position: relative;
+	float: left;
+	padding:10px;
+	margin-top: -15px;
+}
+
+#mainnav li
+{
+	font-family: "LithosPro";
+	list-style: none;
+	display: inline;
+	line-height: 50px;
+	padding: 0 15px 0 0;
+	float: right;
+	font-size: 24px;
+}
+
+#mainnav a
+{
+	color: #d5e7f0;
+	border-top: 1px solid #d5e7f0;
+	/*border-bottom: 1px solid #d5e7f0;*/
+	text-decoration: underline;
+}
+
+#mainnav a:hover
+{
+	color: #ffffff;
+}
+
+#contentcontainer
+{
+	position: relative;
+	min-width: 800px;
+	max-width: 1000px;
+	margin: 0 auto;
+	z-index: 0;
+}
+
+h1
+{
+	text-align: center;
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+}
+
+#projects
+{
+	width: 50%;
+	margin: 0px auto;
+	display: block;
+}
+
+p
+{
+	text-align: center;
+	font-size: 18px;
+}
+
+
+#contactinfo li
+{
+	padding:0 50px;
+	display: inline;
+}
+
+#contactinfo a:link
+{
+	color: #00557d;
+	font-weight:bold;
+}
+
+#contactinfo a:visted
+{
+	color: #00557d;
+	font-weight:bold;
+}
+
+#contactinfo a:hover
+{
+	color: #000ff;
+	font-weight:bold;
+}
+
+#downloadlink h2
+{
+	color: black;
+}
+
+td
+{
+	width: 50%;
+	padding: 5px;
+}
+
+h2, h3
+{
+	text-align: center;
+}
+
+#blizzRig
+{
+	width:32.9%;
+	float:right
+
+}
